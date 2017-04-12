@@ -30,15 +30,15 @@
 			<header class="site-header">
 				<div class="container">
 					<a ef="index.jsp" id="branding">
-						<div class="logo-copy">
-							<h1 class="site-title">Library Database</h1>
-						</div>
+						
+							<h1 class="site-title" style="font-size: 50px;">Library Database</h1>
+						
 					</a> <!-- #branding -->
 
 					<div class="main-navigation">
-						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
-						<form action="#" class="search-form">
-							<input type="text" placeholder="Search..." name="search">
+						
+						<form class="" >
+							<input type="text" value placeholder="Type anything.." name="search" style="width:82%;">
 							<button onclick="search.jsp"><i class="fa fa-search"></i></button>
 						</form>
 					</div> <!-- .main-navigation -->
@@ -62,13 +62,12 @@
                         <div class="page">
                         <form align="center">
                             <h3 align  = "center">ADD A BOOK</h3>
-                            Name : <input type="text" class="" name="name" placeholder="" style="width:40%;"><br><br>
-                            Authors : <input type="text" class="" name="authors" placeholder="" style="width:40%;"><br><br>
-                            Years published : <input type="text" class="" name="year_pub" placeholder="" style="width:40%;"><br><br>
-                            Publisher : <input type="text" class="" name="pub" placeholder="" style="width:40%;"><br><br>
-                            ISBN : <input type="text" class="" name="isbn" placeholder="" style="width:40%;"><br><br>
-                            Page Count : <input type="text" class="" name="page" placeholder="" style="width:40%;"><br><br>
-                            
+                            Name : <input type="text" class="" name="name" placeholder="" style="width:30%;"><br><br>
+                            Authors : <input type="text" class="" name="authors" placeholder="" style="width:30%;"><br><br>
+                            Year published : <input type="text" class="" name="year_pub" placeholder="" style="width:30%;"><br><br>
+                            Publisher : <input type="text" class="" name="pub" placeholder="" style="width:30%;"><br><br>
+                            ISBN : <input type="text" class="" name="isbn" placeholder="" style="width:30%;"><br><br>
+                            Page Count : <input type="text" class="" name="page" placeholder="" style="width:30%;"><br><br>
                             <input type="submit" class="btn btn-primary btn-lg" value="ADD" onclick="form.action='add.jsp';">
                         </form>
                         </div>
